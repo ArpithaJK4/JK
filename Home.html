@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Home page</h1>
+	<h3>Enter Details Below</h3>
+	
+	<form action="insert" method="post">
+		<fieldset>
+			<table>
+				<tr>
+					<th>Name:</th>
+					<th><input type="text" name="name" required="required"> </th>
+				</tr>
+				<tr>
+					<th>Sub:</th>
+					<th><input type="text" name="course" required="required"></th>
+				</tr>
+			</table>
+				 <button >Insert</button>
+		</fieldset>
+	</form>
+	<a href="fetchStudentRecords"><button>FetchStudent</button></a>
+	<a href="fetchCourseRecords"><button>FetchCourse</button></a>
+	<a href="deletetask?id=<%=task.getId()%>"><button>Update</button></a>
+	<a href="deletetask?id=<%=task.getId()%>"><button>Delete</button></a>
+</body>
+</html>
