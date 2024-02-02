@@ -1,6 +1,6 @@
 
 
-public class Happy {
+public class Happyno {
 	
 	
 	
